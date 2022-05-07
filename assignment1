@@ -1,0 +1,12 @@
+n=int(input())
+d={}
+for i in range(n):
+    if (i+1)%2==0:
+        d[i+1]='Yes'
+    else:
+        d[i+1]='No'
+print(d)
+
+output:
+4
+{1:'No',2:'Yes',3:'No',4:'Yes'}
